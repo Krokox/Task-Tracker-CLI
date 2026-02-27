@@ -22,7 +22,23 @@ public class TaskService
             Save();
         }
     }
+    public void Add(string description)
+    {
+        int newId;
+        if (Tasks.Count == 0)
+        {
+            newId = 1;
+        }
+        else
+        {
+            newId = Tasks.Max(t => t.Id) + 1; //Para cada tarea t dame su id, buscamos el valor maximo de id y le sumamos uno
+        }
+        Task newtask = new Task(newId, description, "todo", DateTime.Now, DateTime.Now);
 
+        Tasks.Add(newtask); //añadimos la nueva task que creamos a la lista de tareas
+        Save(); // y guardamos
+
+    }
     public void Save()
     {
         File.WriteAllText(filePath, JsonSerializer.Serialize(Tasks));

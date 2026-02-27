@@ -54,6 +54,6 @@ class Program
     static void ListarComandos()
     {
         Console.WriteLine("Comandos disponibles:");
-        Console.WriteLine(string.Join(" - ", Comandos));
+        Console.WriteLine(string.Join(" - ", Commands.Keys));
     }
 }

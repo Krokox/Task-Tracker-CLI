@@ -12,3 +12,4 @@ C:\Users\Eze\Desktop\Carpetas\Programación\Proyectos\TaskTracker\TaskTracker\ob
 C:\Users\Eze\Desktop\Carpetas\Programación\Proyectos\TaskTracker\TaskTracker\obj\Debug\net10.0\TaskTracker.pdb
 C:\Users\Eze\Desktop\Carpetas\Programación\Proyectos\TaskTracker\TaskTracker\obj\Debug\net10.0\TaskTracker.genruntimeconfig.cache
 C:\Users\Eze\Desktop\Carpetas\Programación\Proyectos\TaskTracker\TaskTracker\obj\Debug\net10.0\ref\TaskTracker.dll
+c:\Users\Eze\Desktop\Carpetas\Programación\Proyectos\TaskTracker\TaskTracker\obj\Debug\net10.0\TaskTracker.sourcelink.json
